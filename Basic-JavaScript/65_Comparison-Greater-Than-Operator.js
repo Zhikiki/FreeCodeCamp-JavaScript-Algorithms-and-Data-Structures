@@ -15,20 +15,18 @@ Examples
 
 */
 
-
 /*
 Add the greater than operator to the indicated lines so that 
 the return statements make sense.
 */
 function testGreaterThan(val) {
-//   if (val) { // Change this line
-if (val > 100) {
-  return 'Over 100';
-}
+  //   if (val) { // Change this line
+  if (val > 100) {
+    return 'Over 100';
+  }
 
-//   if (val) { // Change this line
-    if (val > 10 ) {
-
+  //   if (val) { // Change this line
+  if (val > 10) {
     return 'Over 10';
   }
 
@@ -36,5 +34,3 @@ if (val > 100) {
 }
 
 testGreaterThan(10);
-
-
